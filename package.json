@@ -1,0 +1,30 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "A basic TypeScript template",
+  "main": "dist/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "format": "prettier --cache --write . --ignore-path .prettierignore",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chocoOnEstrogen/repo-template.git"
+  },
+  "author": "choco <choco.rip>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/chocoOnEstrogen/repo-template/issues"
+  },
+  "homepage": "https://github.com/chocoOnEstrogen/repo-template#readme",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
